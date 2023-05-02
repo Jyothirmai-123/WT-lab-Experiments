@@ -1,0 +1,21 @@
+body
+{
+    margin :10;
+    font-family: sans-serif;
+}
+    ::placeholder 
+    {
+    color: red;
+    opacity: 1; /* Firefox */
+    }
+    .i1
+    {
+        color:rgb(27, 143, 39);
+        font-family: sans-serif;
+    }
+    .i2
+    {
+        color:rgb(57, 20, 220);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    

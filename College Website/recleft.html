@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <link rel = "stylesheet" href = "styles.css">
+          
+        <script>
+            function coll(x){
+                x=document.getElementById("d2")
+                x.style.backgroundColor="#cab";
+            }
+            function normalcoll(x){
+                x=document.getElementById("d2")
+                x.style.backgroundColor="rgb(186,222,222)"
+
+            }
+            function d1(){
+                x=document.getElementById("d1")
+                x.style.backgroundColor="#abc";
+            }
+            function kp(){
+                alert("Alert!!!This is ANITS website");
+            }
+            function kp1(){
+                x=document.getElementById("d3")
+                x.style.backgroundColor="rgb(123,300,270)";
+            }
+        </script>
+        <style>
+            a:visited{
+                color:blue;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        
+        <div class="d1" id="d1">
+            <ul>  
+                <div>
+                    <li><a href="middle1.html" target="middle1">Home</a></li>
+                    <li><a href="lists.html" target="middle1">CSE Branch Details</a></li>
+                    <li><a href="Timetables.html" target="middle1">Timetables</a></li>
+                    <li><a href="Gallery1.html" target="middle1">Gallery</a></li>
+                    <li><a href="Reg form styles.html" target="middle1">Registration form </a></li>
+                    <!--<li><a href="JavaScript.html" target="middle1">JavaScript</a></li>-->
+                    <li><a href="Game.html" target="_blank">Game</a></li>
+                    <li><a href="Bill.html" target="_blank">Bill Generator</a></li>
+            </ul>
+                    <hr style ="color: blueviolet; width: 100% ;height: 2px; border-color: brown; background-color: brown;">
+           
+                </div>   
+                
+                <div class="d2" id="d2" onmouseover="coll(this)" onmouseout="normalcoll(this)"> 
+                   
+                    <h4 style="font: bold;color: rgb(121, 51, 135);">Reach Us Out Here</h4>
+                    
+                    <ol>
+                        <li><a href="HTTPS://WWW.LINKEDIN.COM/IN/ANES-VIZAG" target="_blank">LinkedIn</a></li>
+                        <li><a href="http://www.anits.edu.in/" target="_blank">Twitter</a></li>
+                        <li><a href=" HTTPS://WWW.INSTAGRAM.COM/ANES._VIZAG" target="_blank">Instagram</a></li>
+                    </ol>
+                    <hr style ="width: 100% ;height: 2px; border-color: brown; background-color: brown;">
+                </div>   
+                
+                <div class="d4">
+                    <h4 style="color: rgb(172, 56, 95);text-decoration:underline;">Contact Info:</h4>
+                    Phone : 7330789893 , 9154220250
+                    <br>
+                    Fax : 08933-226395
+                    <br>
+                    Email : principal@anits.edu.in
+                    <br>
+                    Website : www.anits.edu.in
+                </div>
+                <br>
+                <button type="button" onclick="d1()">Click Here ⬅️</button>
+                <br>
+                <input type="text" onkeypress="kp()"><br>
+                <input type="text" onkeypress="kp1()">
+    </body>
+</html>

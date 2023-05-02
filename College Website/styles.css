@@ -1,0 +1,21 @@
+.imag{
+    height : 70%;
+    width:100% ;
+    
+}
+.d1{
+    background-color: rgb(234, 186, 233);
+}
+.d2{
+    background-color: rgb(186, 222, 222);
+}
+.d3{
+    background-color: rgb(245, 241, 236);
+}
+.d4{
+    background-color: rgb(159, 220, 222);
+}
+.im img:hover
+{
+    border-radius: 50%;
+}

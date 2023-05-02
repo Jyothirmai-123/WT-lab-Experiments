@@ -1,0 +1,50 @@
+table {
+    width: 80%;
+    border: 2px solid;
+   
+}
+
+td{
+    text-transform:lowercase;
+    text-align: center;
+    
+}
+table:hover
+{
+    background-color: rgb(170, 170, 251);
+}
+img:hover
+{
+    border-radius: 50%;
+}
+/*.first
+{
+    background-color: rgb(40, 180, 180);
+}*/
+li:hover{
+color: crimson;
+font-weight: bold;
+}
+a:hover{
+    background-color: rgb(250, 252, 255);
+}
+a:link{
+    background-color: rgb(224, 151, 190);
+}
+a:focus{
+    background-color: rgb(157, 127, 255);
+}
+.container
+{
+    gap:0.625%;
+    background-color: darkmagenta;
+    outline-color: black;
+    outline-style: auto;
+    padding: 20px;
+}
+frame:hover{
+    background-color: rgb(180, 244, 196);
+}
+/*a:visited{
+    color:aquamarine
+}*/

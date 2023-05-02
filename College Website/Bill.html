@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Just Practice</title>
+  
+  <link rel = "stylesheet" href = "Bill styles.css">
+  <style>
+    body{
+      background-image: url('https://img.freepik.com/free-vector/restaurant-mural-wallpaper_52683-47493.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    table{
+      background-color:#FFF8E1;
+      color: rgb(2, 12, 4);
+    }
+    
+  </style>
+  
+  </head>
+<body>
+   <div class="pricelist">
+   <h1 style="color: rgb(255, 255, 255);position: relative;right: 75px;">TIME PASS CAFE</h1>
+    <h2 style="color: rgb(255, 255, 255);position: relative;right: 85px;">MENU</h2>
+    <table align="left" style="width:90%;height:30%">
+      <tr>
+       
+        <td align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZStePzKfwAwi-dbgCYlAwb83QU82hIoLJ3w&usqp=CAU" width="100%",height="100%" ></td>
+        <td align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwWGyI3iEdkFtGuXixO6AlbZbGIN7NP3ngKQ&usqp=CAU" width="100%",height="100%"></td>
+        <td align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZZAm8B595txZj4BhaSIf4aAlRZglehPJQAg&usqp=CAU"width="100%",height="100%" ></td>
+        <td align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNBMniOaqJsddeYTRDO3Td7Y5YTFjs01KXxQ&usqp=CAU" width="100%",height="100%"></td>
+        <td align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYGsJuIKgwC4DDRictNAhRzmS1ijv_m3fO_g&usqp=CAU" width="100%",height="100%"></td>
+        <td align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWKYvPFRikvZi-WGupmyXASqaXf7Io_6T-Ng&usqp=CAU" width="100%",height="100%"></td>
+        
+
+      
+      </tr>
+      <tr>
+        <td align="center">Milk Shake</td>
+        <td align="center">Ice Cream</td>
+        <td align="center">Mocktail</td>
+        <td align="center">Cold Coffee</td>
+        <td align="center">Thick Shake</td>
+        <td align="center">Smoothies</td>
+      </tr>
+      <tr>
+        <td align="center">Rs. 40</td>
+        <td align="center">Rs. 50</td>
+        <td align="center">Rs. 80</td>
+        <td align="center">Rs. 30</td>
+        <td align="center">Rs. 65</td>
+        <td align="center">Rs. 45</td>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <br>
+  <br>
+  
+  <form class="bill1">
+    <select id="sf">
+  <option selected value = "Milk Shake">Milk Shake</option>
+  <option value = "Ice Cream">Ice Cream</option>
+  <option value = "Mocktail">Mocktail</option>
+  <option value = "Cold Coffee">Cold Coffee</option>
+  <option value = "Thick Shake">Thick Shake</option>
+  <option value = "Smoothies">Smoothies</option>
+</select>
+    <input type="text" id="entrybox" pattern="\d*" placeholder="Input Amount">&nbsp;<b style="color: white;">ITEM/S</b>&nbsp;&nbsp;
+    <input type="button" value="ADD T0 CART" class="mybutton" id="getme">
+  </form>
+  <br><br>
+  <textarea style="background-color:#FFF8E1;"class="bill" cols="100" rows="12" id="writeme"></textarea>
+  <br>
+  <input type="submit" value="CLEAR TEXTAREA" class="mybutton bill3" id="clr">
+  <input type="submit" value="PAY BILL" class="mybutton bill2" id="out">
+  <script src="Bill js.js"></script>
+
+  
+  </body>
+
+</html>
